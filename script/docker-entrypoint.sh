@@ -6,8 +6,8 @@ set -e
 export MYSQL_HOST=${MYSQL_HOST:-'172.17.0.2'}
 export MYSQL_USER=${MYSQL_USER:-'root'}
 export MYSQL_PASS=${MYSQL_PASS:-'root'}
-#export MYSQL_PORT=${MYSQL_PORT:-'3306'}
-export MYSQL_PORT='3306'
+export MYSQL_PORT=${MYSQL_PORT:-'3306'}
+#export MYSQL_PORT='3306'
 
 
 if [ ! -f /data/.dbimported ];then
