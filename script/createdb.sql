@@ -1,0 +1,5 @@
+--
+-- 数据库: `drupal`
+--
+CREATE DATABASE IF NOT EXISTS `drupal` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS `civicrm` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
